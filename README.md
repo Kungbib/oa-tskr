@@ -11,3 +11,4 @@ med ovärderlig hjälp från
 * Matilda Svensson, KIB
 * Therese Nilsson, Umeå UB
 * Olof Frank, SLU
+* Nils Jansson, KTH
