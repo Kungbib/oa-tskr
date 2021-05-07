@@ -2,7 +2,7 @@
 
 Uppgifterna är insamlade från förlagens egna system (en eller flera Excel-filer per förlag) och standardiserade. Inget förlag levererar idag all den data vi efterfrågar (se exv ESAC:s rekommendationer på vilken data som rekommenderas (länk: https://esac-initiative.org/about/oa-workflows/)). Standardiseringen sker både på variabelnamnsnivå och för variabeldata. Exempel på standardisering av variabelnamn är förlagens olika namn för ISSN som Online ISSN, Journal Online ISSN och  eISSN - dessa är alla sammanförda under issn_e. Variabeldata är i stor utsträckning standardiserad, t ex organisationsnamn. De variabler som inte är standardiserade är uppmärkta i nyckeln nedan.
 
-Följande förlag ingår för närvarande inte i sammanställningen: American Physical Society (levererar inte data) och Frontiers (pga avtalskonstruktionen).
+Följande förlag ingår för närvarande inte i sammanställningen: American Physical Society (levererar inte data) och Frontiers (pga avtalskonstruktionen). För De Gruyter saknas ännu data för 2020.
 
 **csv-filer**<br>
 Filerna är standardiserade, exv med UTF8-kodning samt datumformat. Saknad data, d v s då förlaget inte levererat de uppgifterna, är uppmärkt med NA (Not Available).
