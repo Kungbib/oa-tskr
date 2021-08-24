@@ -20,8 +20,8 @@ issn_p (character): issn för print version av tidskriften enligt förlaget.<br>
 issn_e (character): issn för elektronisk version av tidskriften enligt förlaget.<br>
 issn_unclear (character): när förlag inte skiljer på print och elektroniskt issn registreras de som unclear.<br>
 oa_type (character): vilken typ av öppen tillgång, två värden, guld = artikeln publiceras i en tidskrift som är öppet tillgänglig, hybrid = artikeln publiceras i en prenumerationstidskrift.<br>
-agreement (character)*: namnet på Bibsam-avtalet, samt vilka år avtalet gäller.<br>
-agreement_limit (character)*: skiljer ut artiklar som publicerats inom respektive utanför avtalet för de avtal som har publiceringstak. De artiklar som publicerats utanför avtalet har betalats av respektive organisation separat. Tre värden; within limits = publicerad i avtal, over the limit = publicerat utanför avtalet och unlimited = avtal utan publiceringstak.<br>
+*agreement (character)*: namnet på Bibsam-avtalet, samt vilka år avtalet gäller.<br>
+*agreement_limit (character)*: skiljer ut artiklar som publicerats inom respektive utanför avtalet för de avtal som har publiceringstak. De artiklar som publicerats utanför avtalet har betalats av respektive organisation separat. Tre värden; within limits = publicerad i avtal, over the limit = publicerat utanför avtalet och unlimited = avtal utan publiceringstak.<br>
 license (character): vilken öppen licens som använts för artikeln. Ej normaliserad från förlagsdata.<br>
 art_type (character): förlagets artikeltyp. Ej normaliserad från förlagsdata.<br>
 date_submitted (date): datum då artikeln mottogs av förlag för publicering.<br>
@@ -34,7 +34,7 @@ apc_price (numerical): förlagets publiceringsavgift, inte helt entydigt att det
 apc_price_currency (character): valutakod för APC-pris.<br>
 conversion_apc_price (numerical): den kurs svenska kronan stod i i genomsnitt det år betalningen registrerades. Uppgifter om kurs hämtat från https://www.riksbank.se/sv/statistik/sok-rantor--valutakurser/arsgenomsnitt-valutakurser/<br>
 bibsam_price_sek (numerical): Bibsam-pris, se nedan, omvandlat till svenska kronor efter det års genomsnittliga växelkurs det år då artikeln registrerades som betald. Se även conversion_bibsam_price. Uppgifter om kurs hämtat från https://www.riksbank.se/sv/statistik/sok-rantor--valutakurser/arsgenomsnitt-valutakurser/<br>
-bibsam_price (numerical): om avtalet är utformat så att en artikel har ett enskilt pris inom avtalet är detta priset som Bibsam som helhet betalat för artikeln, alltså inte vad ett enskilt lärosäte betalat.<br>
+bibsam_price (numerical): om avtalet är utformat så att en artikel har ett enskilt pris inom avtalet är detta priset som Bibsam som helhet betalat för artikeln, alltså inte vad en enskild Bibsam-organisation betalat.<br>
 bibsam_price_currency (character): valutakod för Bibsam-pris.<br>
 conversion_bibsam_price (numerical): den kurs svenska kronan stod i i genomsnitt det år betalningen registrerades. Uppgifter om kurs hämtat från https://www.riksbank.se/sv/statistik/sok-rantor--valutakurser/arsgenomsnitt-valutakurser/<br>
 corr_author_org_mail (character): den domän som huvudförfattarens mailadress tillhör.<br>
