@@ -1,8 +1,8 @@
-<p>I den här mappen finns csv- och Excel-fil för de artiklar som bekostats inom Bibsams avtal. Filerna är uppmärkta efter det år då artikeln bekostats inom avtalet (alltså inte publiceringsår).</p>
+I den här mappen finns csv- och Excel-fil för de artiklar som bekostats inom Bibsams avtal under åren 2019-2021 och där förlagen lämnat uppgifter. Följande förlag ingår för närvarande inte i sammanställningen då de inte levererar data: American Physical Society, IOS Press och Mark Allen. 
+
+Uppgiften om år gäller det år då artikeln bekostats inom avtalet (alltså inte publiceringsår).
 
 Uppgifterna är insamlade från förlagens egna system (en eller flera Excel-filer per förlag) och standardiserade. Inget förlag levererar idag all den data vi efterfrågar (se exv ESAC:s rekommendationer på vilken data som rekommenderas (länk: https://esac-initiative.org/about/oa-workflows/)). Standardiseringen sker både på variabelnamnsnivå och för variabeldata. Exempel på standardisering av variabelnamn är förlagens olika namn för ISSN som Online ISSN, Journal Online ISSN och  eISSN - dessa är alla sammanförda under issn_e. Variabeldata är i stor utsträckning standardiserad, t ex organisationsnamn. De variabler som inte är standardiserade är uppmärkta i nyckeln nedan.
-
-Följande förlag ingår för närvarande inte i sammanställningen då de inte levererar data: American Physical Society, IOS Press och Mark Allen. 
 
 **csv-fil**<br>
 Filen är standardiserad, exv med UTF8-kodning samt datumformat. Saknad data, dvs. då förlaget inte levererat uppgifterna, är uppmärkt med NA (Not Available).
@@ -14,7 +14,7 @@ För att göra data så åtkomlig så möjligt tillhandahåller vi också en Exc
 *kursiverat* indikerar att variabeln är komplett<br>
 | Variabel | Beskrivning|
 | :--- | :--------- |
-| doi (char) | DOI normaliserat, förled (http…) borttaget. Om DOI inte finns, finns art_id, se längre ned.<br>|
+| doi (char) | DOI normaliserat, förled (http…) borttaget, även art_id anges då DOI i vissa fall saknas (se längre ned).<br>|
 | name_swe (char) | Namn på Bibsam-organisation, standardiserat från förlagens data.<br> |
 | *publisher (character)* | Namn på det förlag som tillhandahåller avtalet.<br> |
 | journal (character) | Namnet på tidskriften enligt förlaget.<br> |
@@ -44,6 +44,7 @@ För att göra data så åtkomlig så möjligt tillhandahåller vi också en Exc
 | type (character) | Vilken typ av organisation den aktuella Bibsam-organisationen definieras som.<br> |
 | name_eng (character) | Det engelska namnet på Bibsam-organisationen.<br> |
 | domain (character) | Bibsam-organisations domän.<br> |
+| art_id | Artikel-id från förlaget |
 | *consortium (character)* | Används för att indikera konsortiet.<br> |
 | *year_paid (numerical)* | Det år då artikeln registrerats som betald inom Bibsam-avtalet.<br> |
 | *source_file (character)* | Intern Bibsam-variabel för spårbarhet.<br> |
