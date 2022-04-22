@@ -14,8 +14,8 @@ För att göra data så åtkomlig så möjligt tillhandahåller vi också en Exc
 *kursiverat* indikerar att variabeln är komplett<br>
 | Variabel | Beskrivning|
 | :--- | :--------- |
-| doi (char) | DOI normaliserat, förled (http…) borttaget, även art_id anges då DOI i vissa fall saknas (se längre ned).<br>|
-| name_swe (char) | Namn på Bibsam-organisation, standardiserat från förlagens data.<br> |
+| doi (character) | DOI normaliserat, förled (http…) borttaget, även art_id anges då DOI i vissa fall saknas (se längre ned).<br>|
+| name_swe (character) | Namn på Bibsam-organisation, standardiserat från förlagens data.<br> |
 | *publisher (character)* | Namn på det förlag som tillhandahåller avtalet.<br> |
 | journal (character) | Namnet på tidskriften enligt förlaget.<br> |
 | issn_p (character) | issn för print version av tidskriften enligt förlaget.<br> |
