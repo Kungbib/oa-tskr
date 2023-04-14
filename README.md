@@ -1,14 +1,9 @@
 # oa-tskr
 
 *****
-MER INFO KOMMER SENARE
+INFORMATION
 *****
 
-Filer kontrollerade och metadataberikade av 
-* Daniel Albertsson, KB och SLU
-
-med ovärderlig hjälp från 
-* Matilda Svensson, KIB
-* Therese Nilsson, Umeå UB
-* Olof Frank, SLU
-* Nils Jansson, KTH
+Filer kontrollerade och metadataberikade av:
+* Lars-Håkan Herbertsson, KB och Chalmers
+* Daniel Albertsson (fram till uppdatering 4, 2023), KB och SLU
