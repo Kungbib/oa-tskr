@@ -1,4 +1,6 @@
-I den här mappen finns csv- och Excel-fil för de artiklar som bekostats inom Bibsams avtal under åren 2019-2022 och där förlagen lämnat uppgifter. Följande förlag ingår för närvarande inte i sammanställningen då de inte levererar data: Mark Allen. 
+I den här mappen finns csv- och Excel-fil för de artiklar som inom Bibsamkonsortiets avtal under åren 2019-2022 och där förlagen lämnat uppgifter. Följande förlag ingår för närvarande inte i sammanställningen då de inte levererar data: Mark Allen. 
+
+Filerna innehåller de artiklar som ingår i avtalen, oavsett om de är förskottsbetalade eller faktureras löpande och betalas centralt på organisationerna eller av forskarna själva. Det innebär att det finns ett visst överlapp mellan innehållet här och det som inrapporterats till OpenAPC. Framför allt gäller det publikationer i helt öppet tillgängliga tidskrifter hos PLOS, MPDI, Frontiers, SAGE och De Gruyter. 
 
 Uppgiften om år gäller det år då artikeln bekostats inom avtalet (alltså inte publiceringsår).
 
