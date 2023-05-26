@@ -1,4 +1,6 @@
-I den här mappen finns csv- och Excel-fil för de artiklar som bekostats inom Bibsams avtal under åren 2019-2021 och där förlagen lämnat uppgifter. Följande förlag ingår för närvarande inte i sammanställningen då de inte levererar data: American Physical Society, IOS Press och Mark Allen. 
+I den här mappen finns csv- och Excel-fil för artiklar inom Bibsamkonsortiets avtal under åren 2019-2022 och där förlagen lämnat uppgifter. Följande förlag ingår för närvarande inte i sammanställningen då de inte levererar data: Mark Allen. 
+
+Filerna innehåller de artiklar som ingår i avtalen, oavsett om de är förskottsbetalade eller faktureras löpande och betalas centralt på organisationerna eller av forskarna själva. Det innebär att det finns ett visst överlapp mellan innehållet här och det som inrapporterats till OpenAPC. Framför allt gäller det publikationer i helt öppet tillgängliga tidskrifter hos PLOS, MPDI, Frontiers, SAGE och De Gruyter. 
 
 Uppgiften om år gäller det år då artikeln bekostats inom avtalet (alltså inte publiceringsår).
 
@@ -24,7 +26,7 @@ För att göra data så åtkomlig så möjligt tillhandahåller vi också en Exc
 | oa_type (character) | Typ av öppen tillgång, två värden: <br> guld = artikeln publiceras i en tidskrift som är öppet tillgänglig <br> hybrid = artikeln publiceras i en prenumerationstidskrift.<br> |
 | *agreement (character)* | Namnet på Bibsam-avtalet, samt vilka år avtalet gäller. |
 | *agreement_limit (character)* | Skiljer ut artiklar som publicerats inom respektive utanför avtalet för de avtal som har publiceringstak. De artiklar som publicerats utanför avtalet har betalats av respektive organisation separat. <br> Tre värden: <br> within limits = publicerad inom avtal, <br> over the limit = publicerad utanför avtal <br> unlimited = avtal utan publiceringstak <br> discount = publicerad med rabatt |
-| license (character) | Vilken öppen licens som använts för artikeln. Ej normaliserad från förlagsdata.<br> |
+| license (character) | Vilken öppen licens som använts för artikeln. Normaliserad förlagsdata till enhetliga benämningar.<br> |
 | art_type (character) | Förlagets artikeltyp. Ej normaliserad från förlagsdata.<br> |
 | date_submitted (date) | Datum då artikeln mottogs av förlag för publicering.<br> |
 | date_accepted (date) | Datum då artikeln accepterades för publicering i tidskriften.<br> |
