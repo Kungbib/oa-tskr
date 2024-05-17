@@ -1,10 +1,12 @@
-I den här mappen finns csv- och Excel-fil för artiklar inom Bibsamkonsortiets avtal under åren 2019-2022 och där förlagen lämnat uppgifter. Följande förlag ingår för närvarande inte i sammanställningen då de inte levererar data: Mark Allen. 
+I den här mappen finns csv- och Excel-fil för artiklar inom Bibsamkonsortiets avtal under åren 2019-2023 och där förlagen lämnat uppgifter.  
 
 Filerna innehåller de artiklar som ingår i avtalen, oavsett om de är förskottsbetalade eller faktureras löpande och betalas centralt på organisationerna eller av forskarna själva. Det innebär att det finns ett visst överlapp mellan innehållet här och det som inrapporterats till OpenAPC. Framför allt gäller det publikationer i helt öppet tillgängliga tidskrifter hos PLOS, MPDI, Frontiers, SAGE och De Gruyter. 
 
 Uppgiften om år gäller det år då artikeln bekostats inom avtalet (alltså inte publiceringsår).
 
 Uppgifterna är insamlade från förlagens egna system (en eller flera Excel-filer per förlag) och standardiserade. Inget förlag levererar idag all den data vi efterfrågar (se exv ESAC:s rekommendationer på vilken data som rekommenderas (länk: https://esac-initiative.org/about/oa-workflows/)). Standardiseringen sker både på variabelnamnsnivå och för variabeldata. Exempel på standardisering av variabelnamn är förlagens olika namn för ISSN som Online ISSN, Journal Online ISSN och  eISSN - dessa är alla sammanförda under issn_e. Variabeldata är i stor utsträckning standardiserad, t ex organisationsnamn. De variabler som inte är standardiserade är uppmärkta i nyckeln nedan.
+
+Då flertalet avtal innebär att publiceringen är förskottsbetalad har tidigare variabler för pris inom Bibsamkonsortiet tagits bort. Publiceringsavgifter (APC) till listpris redovisas med utgångspunkt i om uppgifterna finns tillgängliga från förlagen.
 
 **csv-fil**<br>
 Filen är standardiserad, till exempel med UTF8-kodning och datumformat. Saknad data, dvs. då förlaget inte levererat uppgifterna, är uppmärkt med NA (Not Available).
@@ -37,10 +39,6 @@ För att göra data så åtkomlig så möjligt tillhandahåller vi också en Exc
 | apc_price_sek (numerical) | APC-pris, se nedan, omvandlat till svenska kronor efter det års genomsnittliga växelkurs det år då tidskriften registrerades som betald. Se även conversion_apc_price. Uppgifter om kurs hämtat från https://www.riksbank.se/sv/statistik/sok-rantor--valutakurser/arsgenomsnitt-valutakurser/<br> |
 | apc_price_currency (character) | Valutakod för APC-pris.<br> |
 | conversion_apc_price (numerical) | Den kurs svenska kronan stod i i genomsnitt det år betalningen registrerades. Uppgifter om kurs hämtat från https://www.riksbank.se/sv/statistik/sok-rantor--valutakurser/arsgenomsnitt-valutakurser/<br> |
-| bibsam_price (numerical) | Om avtalet är utformat så att en artikel har ett enskilt pris inom avtalet är detta priset som Bibsam som helhet betalat för artikeln, alltså inte vad en enskild Bibsam-organisation betalat.<br> |
-| bibsam_price_sek (numerical) | Bibsam-pris, se nedan, omvandlat till svenska kronor efter det års genomsnittliga växelkurs det år då artikeln registrerades som betald. Se även conversion_bibsam_price. Uppgifter om kurs hämtat från https://www.riksbank.se/sv/statistik/sok-rantor--valutakurser/arsgenomsnitt-valutakurser/<br> |
-| bibsam_price_currency (character) | Valutakod för Bibsam-pris.<br> |
-| conversion_bibsam_price (numerical) | Den kurs svenska kronan stod i i genomsnitt det år betalningen registrerades. Uppgifter om kurs hämtat från https://www.riksbank.se/sv/statistik/sok-rantor--valutakurser/arsgenomsnitt-valutakurser/<br> |
 | corr_author_org_mail (character) | Den domän som huvudförfattarens mailadress tillhör.<br> |
 | short (character) | Förkortning för Bibsam-organisation.<br> |
 | type (character) | Vilken typ av organisation den aktuella Bibsam-organisationen definieras som.<br> |
