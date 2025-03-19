@@ -1,8 +1,6 @@
-*Ny fil är planerad att publiceras andra veckan i mars 2025 med uppgifter för 2024 års publicering*
-
 # Om publiceringar inom Bibsamkonsortiets avtal
 
-I den här mappen finns csv- och Excel-fil för artiklar inom Bibsamkonsortiets avtal under åren 2019-2023 och där förlagen lämnat uppgifter.  
+Här finns csv- och Excel-fil för artiklar inom Bibsamkonsortiets avtal under åren 2019-2024 och där förlagen lämnat uppgifter.  
 
 Filerna innehåller de artiklar som ingår i avtalen, oavsett om de är förskottsbetalade eller faktureras löpande och betalas centralt på organisationerna eller av forskarna själva. Det innebär att det finns ett visst överlapp mellan innehållet här och det som inrapporterats till OpenAPC. Framför allt gäller det publikationer i helt öppet tillgängliga tidskrifter hos PLOS, MPDI, Frontiers, SAGE och De Gruyter. 
 
@@ -48,6 +46,7 @@ För att göra data så åtkomlig så möjligt tillhandahåller vi också en Exc
 | type (character) | Vilken typ av organisation den aktuella Bibsam-organisationen definieras som.<br> |
 | name_eng (character) | Det engelska namnet på Bibsam-organisationen.<br> |
 | domain (character) | Bibsam-organisations domän.<br> |
+| ror.org (character) | Bibsam-organisations ROR-id-<br> |
 | art_id | Artikel-id från förlaget. |
 | *consortium (character)* | Används för att indikera konsortiet.<br> |
 | *year_paid (numerical)* | Det år då artikeln registrerats som betald inom Bibsam-avtalet.<br> |
