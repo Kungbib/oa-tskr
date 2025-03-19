@@ -1,8 +1,6 @@
-*Ny fil är planerad att publiceras andra veckan i mars 2025 med uppgifter för 2024 års publicering*
-
 # Om publiceringar inom Bibsamkonsortiets avtal
 
-I den här mappen finns csv- och Excel-fil för artiklar inom Bibsamkonsortiets avtal under åren 2019-2023 och där förlagen lämnat uppgifter.  
+Här finns csv- och Excel-fil för artiklar inom Bibsamkonsortiets avtal under åren 2019-2024 och där förlagen lämnat uppgifter.  
 
 Filerna innehåller de artiklar som ingår i avtalen, oavsett om de är förskottsbetalade eller faktureras löpande och betalas centralt på organisationerna eller av forskarna själva. Det innebär att det finns ett visst överlapp mellan innehållet här och det som inrapporterats till OpenAPC. Framför allt gäller det publikationer i helt öppet tillgängliga tidskrifter hos PLOS, MPDI, Frontiers, SAGE och De Gruyter. 
 
@@ -13,7 +11,7 @@ Uppgifterna är insamlade från förlagens egna system (en eller flera Excel-fil
 Då flertalet avtal innebär att publiceringen är förskottsbetalad har tidigare variabler för pris inom Bibsamkonsortiet tagits bort. Publiceringsavgifter (APC) till listpris redovisas med utgångspunkt i om uppgifterna finns tillgängliga från förlagen.
 
 **csv-fil**<br>
-Filen är standardiserad, till exempel med UTF8-kodning och datumformat. Saknad data, dvs. då förlaget inte levererat uppgifterna, är uppmärkt med NA (Not Available).
+Filen är standardiserad, till exempel med UTF8-kodning och datumformat. Saknad data, dvs. då förlaget inte levererat uppgifterna, är uppmärkt med NA (Not Available). Filen tillgängliggörs i zip-format.
 
 **Excel-fil**<br>
 För att göra data så åtkomlig så möjligt tillhandahåller vi också en Excel-fil där sammanställningar etc. redan är gjorda så att inte import av csv till Excel ställer till det. Många kommer att vilja titta på filens innehåll, och för att öppna filer i csv (comma separated values) används ofta Excel. Att öppna en csv-fil i Excel går ofta alldeles utmärkt, men ibland kan specialtecken, datum och kommatecken i titlar ställa till det om inte importen görs på rätt sätt. I filen har vi sett till att kolumner hamnar rätt, specialtecken ser ut som det ska och att datumformatet fungerar korrekt för Excel. Det finns också några enkla pivottabeller som sammanfattar informationen på en övergripande nivå. Det går givetvis bra att skapa egna pivottabeller och laborera med informationen efter eget tycke.
@@ -48,6 +46,7 @@ För att göra data så åtkomlig så möjligt tillhandahåller vi också en Exc
 | type (character) | Vilken typ av organisation den aktuella Bibsam-organisationen definieras som.<br> |
 | name_eng (character) | Det engelska namnet på Bibsam-organisationen.<br> |
 | domain (character) | Bibsam-organisations domän.<br> |
+| ror.org (character) | Bibsam-organisations ROR-id<br> |
 | art_id | Artikel-id från förlaget. |
 | *consortium (character)* | Används för att indikera konsortiet.<br> |
 | *year_paid (numerical)* | Det år då artikeln registrerats som betald inom Bibsam-avtalet.<br> |
