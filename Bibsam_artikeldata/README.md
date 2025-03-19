@@ -46,7 +46,7 @@ För att göra data så åtkomlig så möjligt tillhandahåller vi också en Exc
 | type (character) | Vilken typ av organisation den aktuella Bibsam-organisationen definieras som.<br> |
 | name_eng (character) | Det engelska namnet på Bibsam-organisationen.<br> |
 | domain (character) | Bibsam-organisations domän.<br> |
-| ror.org (character) | Bibsam-organisations ROR-id-<br> |
+| ror.org (character) | Bibsam-organisations ROR-id<br> |
 | art_id | Artikel-id från förlaget. |
 | *consortium (character)* | Används för att indikera konsortiet.<br> |
 | *year_paid (numerical)* | Det år då artikeln registrerats som betald inom Bibsam-avtalet.<br> |
