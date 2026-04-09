@@ -1,3 +1,5 @@
+# OBS! Vi har upptäckt att det är något konstigt med data för Elsevier, vänta med att använda filerna
+#
 # Om publiceringar inom Bibsamkonsortiets avtal
 
 Här finns csv- och Excel-fil för artiklar inom Bibsamkonsortiets avtal under åren 2019-2025 och där förlagen lämnat uppgifter.  
