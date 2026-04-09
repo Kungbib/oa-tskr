@@ -1,10 +1,10 @@
 # Om publiceringar inom Bibsamkonsortiets avtal
 
-Här finns csv- och Excel-fil för artiklar inom Bibsamkonsortiets avtal under åren 2019-2024 och där förlagen lämnat uppgifter.  
+Här finns csv- och Excel-fil för artiklar inom Bibsamkonsortiets avtal under åren 2019-2025 och där förlagen lämnat uppgifter.  
 
 Filerna innehåller de artiklar som ingår i avtalen, oavsett om de är förskottsbetalade eller faktureras löpande och betalas centralt på organisationerna eller av forskarna själva. Det innebär att det finns ett visst överlapp mellan innehållet här och det som inrapporterats till OpenAPC. Framför allt gäller det publikationer i helt öppet tillgängliga tidskrifter hos PLOS, MPDI, Frontiers, SAGE och De Gruyter. 
 
-Uppgiften om år gäller det år då artikeln bekostats inom avtalet (alltså inte publiceringsår).
+Uppgiften om år gäller det år då artikeln bekostats inom avtalet (alltså inte publiceringsår). Titel och license har berikats med uppgifter från Crossref och Swepub i de fall det saknas i förlagens filer och i den utsträckning uppgifterna finns i dessa källor.
 
 Uppgifterna är insamlade från förlagens egna system (en eller flera Excel-filer per förlag) och standardiserade. Inget förlag levererar idag all den data vi efterfrågar (se exv ESAC:s rekommendationer på vilken data som rekommenderas (länk: https://esac-initiative.org/about/oa-workflows/)). Standardiseringen sker både på variabelnamnsnivå och för variabeldata. Exempel på standardisering av variabelnamn är förlagens olika namn för ISSN som Online ISSN, Journal Online ISSN och  eISSN - dessa är alla sammanförda under issn_e. Variabeldata är i stor utsträckning standardiserad, t ex organisationsnamn. De variabler som inte är standardiserade är uppmärkta i nyckeln nedan.
 
@@ -24,6 +24,7 @@ För att göra data så åtkomlig så möjligt tillhandahåller vi också en Exc
 | name_swe (character) | Namn på Bibsam-organisation, standardiserat från förlagens data.<br> |
 | *publisher (character)* | Namn på det förlag som tillhandahåller avtalet.<br> |
 | journal (character) | Namnet på tidskriften enligt förlaget.<br> |
+| title (character) | Publikationens titel enligt förlaget, eller berikat från Crossref/Swepub.<br>|
 | issn_p (character) | issn för print version av tidskriften enligt förlaget.<br> |
 | issn_e (character) | issn för elektronisk version av tidskriften enligt förlaget.<br> |
 | issn_unclear (character) | När förlag inte skiljer på print och elektroniskt issn registreras de som unclear.<br> |
